@@ -21,6 +21,14 @@
     {
       "title": "Step 4 - Communicating between Docker Using Links",
       "text": "step4.md"
+    },
+    {
+      "title": "Step 5 - Communicating between Docker Using Networks",
+      "text": "step5.md"
+    },
+    {
+      "title": "Step 6 - Orchestration Using Docker Compose",
+      "text": "step6.md"
     }  
   ],
     
