@@ -5,9 +5,15 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Basic Docker",
       "text": "step1.md"
-    }],
+    },
+    {
+      "title": "Step 2 - Building Docker",
+      "text": "step2.md"
+    }  
+  ],
+    
     "intro": {
       "text": "intro.md",
       "credits": ""
