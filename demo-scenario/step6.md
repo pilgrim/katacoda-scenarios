@@ -1,4 +1,6 @@
-### docker-compose
+### Using docker-compose
+
+
 
 #### Create package.json
 
@@ -55,6 +57,8 @@ console.log('Listening on port 3001');
 FROM ocelotuproar/alpine-node:5.7.1-onbuild
 EXPOSE 3000
 ```
+
+Note see the port is `3000` that different with `server.js` ( 3001)
 
 #### Define docker-compose.yaml
 

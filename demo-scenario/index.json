@@ -34,12 +34,10 @@
   ],
   "assets": {
     "host01": [
-        {"file": "Dockerfile", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
-        {"file": "Makefile", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
-        {"file": "package.json", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
-        {"file": "server.js", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
-        {"file": "docker-compsoe.yaml", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"}
-
+        {"file": "Dockerfile", "target": "/home/scrapbook/tutorial"},
+        {"file": "Makefile", "target": "/home/scrapbook/tutorial"},
+        {"file": "package.json", "target": "/home/scrapbook/tutorial"},
+        {"file": "docker-compose.yaml", "target": "/home/scrapbook/tutorial"}
     ]
     },    
     "intro": {
