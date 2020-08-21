@@ -1,12 +1,14 @@
 {
-  "title": "Demo Scenario",
-  "description": "A Sample Scenario",
+  "title": "Docker  Scenario",
+  "description": "Various Docker Scenarios",
   "difficulty": "Beginner",
-  "time": "2 minutes",
+  "time": "120 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Basic Docker",
-      "text": "step1.md"
+      "text": "step1.md",
+      "code": "setup.sh"
+
     },
     {
       "title": "Step 2 - Building Docker",
@@ -30,12 +32,17 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "Dockerfile", "Makefile","package.json","server.js","docker-compose.yaml"
+],
 
   "environment": {
     "hidefinish": true,
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
-    "uisettings": "javascript"
+    "uisettings": "javascript",
+    "uieditorpath": "/home/scrapbook/tutorial/example"
+
 },  
   "backend": {
     "imageid": "docker"
