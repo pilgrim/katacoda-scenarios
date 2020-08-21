@@ -34,11 +34,11 @@
   ],
   "assets": {
     "host01": [
-        {"file": "Dockerfile", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
-        {"file": "Makefile", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
-        {"file": "package.json", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
-        {"file": "server.js", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
-        {"file": "docker-compsoe.yaml", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"}
+        {"file": "Dockerfile", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
+        {"file": "Makefile", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
+        {"file": "package.json", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
+        {"file": "server.js", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"},
+        {"file": "docker-compsoe.yaml", "target": "/home/scrapbook/tutorial/step6", "chmod": "+x"}
 
     ]
     },    
@@ -51,16 +51,12 @@
     }
   },
 
-  "files": [
-    "Dockerfile", "Makefile","package.json","server.js","docker-compose.yaml"
-],
-
   "environment": {
     "hidefinish": true,
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
-    "uieditorpath": "/home/scrapbook/tutorial/example"
+    "uieditorpath": "/home/scrapbook/tutorial"
 
 },  
   "backend": {

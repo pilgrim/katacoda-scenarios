@@ -1,1 +1,1 @@
-mkdir -p example; cd example/
+mkdir -p step5 step6 step7;
