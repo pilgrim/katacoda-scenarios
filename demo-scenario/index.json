@@ -49,14 +49,12 @@
     }
   },
 
-  "environment": {
-    "hidefinish": true,
-    "hideHiddenFiles": true,
-    "uilayout": "editor-terminal",
-    "uisettings": "javascript",
-    "uieditorpath": "/home/scrapbook/tutorial"
 
-},  
+"environment": {
+  "hideintro": true,
+  "uilayout": "terminal-terminal"
+},
+
   "backend": {
     "imageid": "docker"
   }
