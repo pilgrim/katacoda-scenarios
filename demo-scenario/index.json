@@ -29,9 +29,19 @@
     {
       "title": "Step 6 - Orchestration Using Docker Compose",
       "text": "step6.md"
-    }  
+    }
+      
   ],
-    
+  "assets": {
+    "host01": [
+        {"file": "Dockerfile", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
+        {"file": "Makefile", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
+        {"file": "package.json", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
+        {"file": "server.js", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"},
+        {"file": "docker-compsoe.yaml", "target": "/home/scrapbook/tutorial/example", "chmod": "+x"}
+
+    ]
+    },    
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -40,6 +50,7 @@
       "text": "finish.md"
     }
   },
+
   "files": [
     "Dockerfile", "Makefile","package.json","server.js","docker-compose.yaml"
 ],

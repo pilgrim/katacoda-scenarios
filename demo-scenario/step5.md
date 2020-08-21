@@ -58,24 +58,24 @@ The other approach is to provide an alias when connecting a container to a netwo
 Connect Container with Alias
 The following command will connect our Redis instance to the frontend-network with the alias of db.
 
-`docker network create frontend-network2`
-`docker network connect --alias db frontend-network2 redis`
+`docker network create frontend-network2`{{execute}}
+`docker network connect --alias db frontend-network2 redis`{{execute}}
 
 When containers attempt to access a service via the name db, they will be given the IP address of our Redis container.
 
-`docker run --net=frontend-network2 alpine ping -c1 db`
+`docker run --net=frontend-network2 alpine ping -c1 db`{{execute}}
 
 Step 5 - Disconnect Containers
 With our networks created, we can use the CLI to explore the details.
 
 The following command will list all the networks on our host.
 
-`docker network ls`
+`docker network ls`{{execute}}
 
 We can then explore the network to see which containers are attached and their IP addresses.
 
-`docker network inspect frontend-network`
+`docker network inspect frontend-network`{{execute}}
 
 The following command disconnects the redis container from the frontend-network.
 
-`docker network disconnect frontend-network redis`
+`docker network disconnect frontend-network redis`{{execute}}
