@@ -11,6 +11,14 @@
     {
       "title": "Step 2 - Building Docker",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Data Volume",
+      "text": "step3.md"
+    },
+    {
+      "title": "Step 4 - Communicating between Docker Using Links",
+      "text": "step4.md"
     }  
   ],
     
@@ -22,10 +30,13 @@
       "text": "finish.md"
     }
   },
+
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
-  },
+    "hidefinish": true,
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uisettings": "javascript"
+},  
   "backend": {
     "imageid": "docker"
   }
