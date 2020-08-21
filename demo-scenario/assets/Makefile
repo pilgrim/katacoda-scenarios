@@ -1,4 +1,4 @@
-NAME='scrapbook/redis-node-docker-example'
+NAME='pilgrim2go/redis-node-docker-example'
 
 build:
 	docker build -t $(NAME) .

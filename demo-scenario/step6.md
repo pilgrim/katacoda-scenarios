@@ -61,20 +61,25 @@ EXPOSE 3000
 Create with following content
 
 ```
-web:
-  build: .
+version: '3.1'
 
-  links:
-    - redis
+services:  
+  web:
+    build: .
 
-  ports:
-    - "3000"
-    - "8000"
+    links:
+      - redis
 
-redis:
-  image: redis:alpine
-  volumes:
-    - /var/redis/data:/data
+    ports:
+      - "3000"
+      - "8000"
+
+  redis:
+    image: redis:alpine
+    volumes:
+      - $PWD/data:/data
+
+
 
 ```
 
